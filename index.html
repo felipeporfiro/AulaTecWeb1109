@@ -1,0 +1,36 @@
+<!DOCTYPE  html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <form name="login" action=""  method="POST">
+            <label>Usuário:</label></br>
+            <input type="text"
+            name="user"
+            maxlength="15"
+            size="20"
+            placeholder="Usuário"
+            required
+            /><br/>
+            <label>Senha</label><br/>
+            <input type="password" name="senha" maxlength="8"><br/>
+            <input type="submit" value="Entrar">
+            <input type="reset" value="limpar"/><br/>
+            <textarea name="obs">Fale um pode de você</textarea><br/>
+            <select name="UF">
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+            <input type="submit" value="Enviar"><br/>
+            <input type="checkbox" name="disciplina" value="TecWeb">TecWeb<br/>
+            <input type="checkbox" name="disciplina" value="DevOps">DevOps<br/>
+            <input type="radio"    name="lp"         value="LP2">LP2<br/>            
+            
+            <input type="reset" value="limpar">              
+        </form>
+    </body>
+</html>
